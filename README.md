@@ -1,4 +1,4 @@
 # Password-Generator
-#Made By Droid *(>X<)*
-This c++ program generates strong password!
-Support me by helping me in my projects!!
+# Run this on a C++ Compiler or IDE
+# For PC: http://www.codeblocks.org/downloads
+# For Mobile: Cpp Droid/Coding C++
