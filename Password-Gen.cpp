@@ -16,7 +16,7 @@ int main()
 
     //password length
     int length;
-    cout <<"Input Number of char for a pass\n";
+    cout <<"Input a number to generate a strong password\n";
     cin >> length;
     
 
@@ -27,7 +27,7 @@ int main()
         cout << alphanum[rand() % ::size];
         
     }
-    cout<<"  Password-Generated🔐";
+     cout<<" 🔐Password-Generated<<🔐\n";
   }
     else if(length == 9){
     srand(time(0));
@@ -35,7 +35,7 @@ int main()
     cout <<alphanum[rand() % ::size];
     
     }
-    cout<<"  Password-Generated🔐";
+        cout<<" 🔐Password-Generated<<🔐\n";
   }
 else if(length == 10){
 srand(time(0));
@@ -43,7 +43,7 @@ for(int i = 0; i < length; i++){
    cout <<alphanum[rand() % ::size];
    
 }
-cout<<" Password-Generated🔐";
+    cout<<" 🔐Password-Generated<<🔐\n";
 
 }
 else if(length == 11){
@@ -52,15 +52,62 @@ for(int i = 0; i < length; i++){
    cout <<alphanum[rand() % ::size];
    
 }
-cout<<" Password-Generated🔐";
+    cout<<" 🔐Password-Generated🔐\n";
 }
-    else if(length <= 7 ){
-    cout <<"Only 8 characters and above can be generated👩‍🔧";
+else if(length == 12){
+    srand(time(0));
+    for(int i = 0; i <= length; i++){
+        cout << alphanum[rand() % ::size];
+    }
     
+
+}
+else if(length == 13){
+    srand(time(0));
+    for(int i = 0; i <= length; i++){
+        cout << alphanum[rand() % ::size];
+    }
+    
+   cout<<" 🔐Password-Generated🔐";
+}
+
+else if(length == 14){
+    srand(time(0));
+    for(int i = 0; i <= length; i++){
+        cout << alphanum[rand() % ::size];
+    }
+    
+   cout<<" 🔐Password-Generated🔐";
+}
+
+else if(length == 15){
+    srand(time(0));
+    for(int i = 0; i <= length; i++){
+        cout << alphanum[rand() % ::size];
+    }
+    
+   cout<<" 🔐Password-Generated🔐";
+}
+
+
+
+
+
+    else if(length <= 7 ){
+    cout <<"Only 8 characters and above can be generated👩‍🔧\n";
     }
     else{
-    cout <<"❌INVALID❌";
+    cout <<"❌INVALID❌\n";
     }
+    cout<<"-----------------------------------------------\n";
+    cout<<"THANK YOU FOR USING MY TOOL :3 \n"<<endl;
+    cout<<"-DROID\n";
+
+cout<<"░░░░░░░░░░░░░░░░░███████ ]▄▄▄▄▄▄▄▄▄-----------******\n";
+
+cout<<"░░░░░░░░░░░░▂▄▅█████████▅▄▃▂\n";
+
+cout<<"░░░░░░░░░░░I███████████████████].\n";
     
     return 0;
 }
