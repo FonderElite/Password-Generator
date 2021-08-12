@@ -17,6 +17,7 @@ int main()
     //password length
     int length;
     cout <<"Input a number to generate a strong password\n";
+    cout <<"Amount: ";
     cin >> length;
     
 
