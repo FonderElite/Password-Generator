@@ -33,6 +33,17 @@ int main()
       		cin.ignore(numeric_limits<streamsize>::max(), '\n');
       		continue;
     	}
+
+		// Too short
+		if (length < 8)
+		{
+			cout << "Length too short. Password length must be more than 8" << endl;
+		}
+		// Too long
+		else if (length > 15)
+		{
+			cout << "Length too long. Password length must be less than 15" << endl;
+		}
 	}
 	while (length < 8 || length > 15);
 
