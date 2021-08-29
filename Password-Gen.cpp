@@ -12,7 +12,9 @@ int size = sizeof(alphanum) - 1;
 
 int main()
 {
-    //Password Length
+    /* Password-Generator
+	   Generate a strong password with a desired length!
+	*/
     int length;
     cout <<"Input a number to generate a strong password\n";
     cout <<"Amount: ";
