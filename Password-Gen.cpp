@@ -12,87 +12,22 @@ int size = sizeof(alphanum) - 1;
 
 int main()
 {
-
-
-    //password length
+    //Password Length
     int length;
     cout <<"Input a number to generate a strong password\n";
     cout <<"Amount: ";
     cin >> length;
-    
 
-    if(length == 8){
-    srand(time(0));
-    for (int i = 0; i < length; i++)
-    {
-        cout << alphanum[rand() % ::size];
-        
+	// Length of password must be in between 8 to 15 characters
+    if (length >= 8 && length <= 15)
+	{
+    	srand(time(0));
+		for (int i = 0; i < length; i++)
+		{
+        	cout << alphanum[rand() % ::size];
+        }
+		cout<<" 🔐Password-Generated<<🔐\n";
     }
-     cout<<" 🔐Password-Generated<<🔐\n";
-  }
-    else if(length == 9){
-    srand(time(0));
-    for(int i = 0; i < length; i++){
-    cout <<alphanum[rand() % ::size];
-    
-    }
-        cout<<" 🔐Password-Generated<<🔐\n";
-  }
-else if(length == 10){
-srand(time(0));
-for(int i = 0; i < length; i++){
-   cout <<alphanum[rand() % ::size];
-   
-}
-    cout<<" 🔐Password-Generated<<🔐\n";
-
-}
-else if(length == 11){
-srand(time(0));
-for(int i = 0; i < length; i++){
-   cout <<alphanum[rand() % ::size];
-   
-}
-    cout<<" 🔐Password-Generated🔐\n";
-}
-else if(length == 12){
-    srand(time(0));
-    for(int i = 0; i <= length; i++){
-        cout << alphanum[rand() % ::size];
-    }
-    
-
-}
-else if(length == 13){
-    srand(time(0));
-    for(int i = 0; i <= length; i++){
-        cout << alphanum[rand() % ::size];
-    }
-    
-   cout<<" 🔐Password-Generated🔐";
-}
-
-else if(length == 14){
-    srand(time(0));
-    for(int i = 0; i <= length; i++){
-        cout << alphanum[rand() % ::size];
-    }
-    
-   cout<<" 🔐Password-Generated🔐";
-}
-
-else if(length == 15){
-    srand(time(0));
-    for(int i = 0; i <= length; i++){
-        cout << alphanum[rand() % ::size];
-    }
-    
-   cout<<" 🔐Password-Generated🔐";
-}
-
-
-
-
 
     else if(length <= 7 ){
     cout <<"Only 8 characters and above can be generated👩‍🔧\n";
