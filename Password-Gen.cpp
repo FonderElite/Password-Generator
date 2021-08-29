@@ -31,12 +31,15 @@ int main()
 		cout<<" 🔐Password-Generated<<🔐\n";
     }
 
-    else if(length <= 7 ){
-    cout <<"Only 8 characters and above can be generated👩‍🔧\n";
+    else if (length <= 7 )
+	{
+    	cout <<"Only 8 characters and above can be generated👩‍🔧\n";
     }
-    else{
-    cout <<"❌INVALID❌\n";
+    else
+	{
+    	cout <<"❌INVALID❌\n";
     }
+
     cout<<"-----------------------------------------------\n";
     cout<<"THANK YOU FOR USING MY TOOL :3 \n"<<endl;
     cout<<"-DROID\n";
