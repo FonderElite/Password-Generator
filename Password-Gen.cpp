@@ -47,7 +47,7 @@ int main()
 	}
 	while (length < 8 || length > 15);
 
-	cout << "---🔐Password Generated🔐--Copy paste below----\n";
+	cout << "---🔐Password Generated🔐----Copy below--------\n";
     srand(time(0));
 	for (int i = 0; i < length; i++)
 	{
