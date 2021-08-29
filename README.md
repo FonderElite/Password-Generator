@@ -1,6 +1,7 @@
 ## 🔐 Password-Generator
 <img src="https://cdn.images.express.co.uk/img/dynamic/59/590x/Password-964633.jpg?r=1535016721392" width=500px>
 ## Installation
+
 ```
 $git clone https://github.com/JusticeServed/Password-Generator
 //Compile
