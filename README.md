@@ -14,6 +14,6 @@ $g++ password.cpp -o password
 > password is a must to avoid security breaches within.
 
 ## C++ resources 
-<a href="https://www.toptal.com/c/the-ultimate-list-of-resources-to-learn-c-and-c-plus-plus"></a>
-<a href="https://www.cplusplus.com/"></a>
+[Test]("https://www.toptal.com/c/the-ultimate-list-of-resources-to-learn-c-and-c-plus-plus")
+[Test]("https://www.cplusplus.com/")
 
