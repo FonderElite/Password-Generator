@@ -16,7 +16,7 @@ int main()
 	   Generate a strong password with a desired length!
 	*/
     int length;
-    cout <<"Input a number to generate a strong password\n";
+    cout <<"Generate a strong password! Select a number from 8 to 15\n";
     cout <<"Amount: ";
     cin >> length;
 
@@ -41,11 +41,9 @@ int main()
     cout<<"THANK YOU FOR USING MY TOOL :3 \n"<<endl;
     cout<<"-DROID\n";
 
-cout<<"░░░░░░░░░░░░░░░░░███████ ]▄▄▄▄▄▄▄▄▄-----------******\n";
-
-cout<<"░░░░░░░░░░░░▂▄▅█████████▅▄▃▂\n";
-
-cout<<"░░░░░░░░░░░I███████████████████].\n";
+	cout<<"░░░░░░░░░░░░░░░░░███████ ]▄▄▄▄▄▄▄▄▄-----------******\n";
+	cout<<"░░░░░░░░░░░░▂▄▅█████████▅▄▃▂\n";
+	cout<<"░░░░░░░░░░░I███████████████████].\n";
     
     return 0;
 }
