@@ -23,17 +23,17 @@ int main()
 	// Length must be in between 8 to 15 characters
 	while (true)
 	{
-    	cout << "Length of password: ";
-    	cin >> length;
+		cout << "Length of password: ";
+		cin >> length;
 
 		// Edge case if the user types a non-integer input
 		if (!cin)
-    	{
-      		cout << "Type only numbers between 8-15." << endl;
-      		cin.clear();
-      		cin.ignore(numeric_limits<streamsize>::max(), '\n');
-      		continue;
-    	}
+		{
+			cout << "Type only numbers between 8-15." << endl;
+			cin.clear();
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
+			continue;
+		}
 		// Too short
 		else if (length < 8)
 		{
