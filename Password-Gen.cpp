@@ -28,7 +28,7 @@ int main()
 		{
         	cout << alphanum[rand() % ::size];
         }
-		cout<<" 🔐Password-Generated<<🔐\n";
+		cout<<" 🔐Password Generated🔐\n";
     }
 
     else if (length <= 7 )
