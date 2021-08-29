@@ -16,10 +16,11 @@ int main()
     /* Password-Generator
 	   Generate a strong password with a desired length!
 	*/
-    cout << "Generate a strong password! Select a number from 8 to 15\n";
+    cout << "Generate a strong password!\nSelect a number from 8 to 15\n";
 
     int length;
-	// Length of password must be in between 8 to 15 characters
+	// Ask the user for the length of the password
+	// Length must be in between 8 to 15 characters
 	do
 	{
     	cout << "Length of password: ";
