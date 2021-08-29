@@ -21,7 +21,7 @@ int main()
     int length;
 	// Ask the user for the length of the password
 	// Length must be in between 8 to 15 characters
-	do
+	while (true)
 	{
     	cout << "Length of password: ";
     	cin >> length;
@@ -34,19 +34,24 @@ int main()
       		cin.ignore(numeric_limits<streamsize>::max(), '\n');
       		continue;
     	}
-
 		// Too short
-		if (length < 8)
+		else if (length < 8)
 		{
 			cout << "Length too short. Password length must be more than 8" << endl;
+			continue;
 		}
 		// Too long
 		else if (length > 15)
 		{
 			cout << "Length too long. Password length must be less than 15" << endl;
+			continue;
+		}
+		// If it passes all these tests, the user input is valid
+		else
+		{
+			break;
 		}
 	}
-	while (length < 8 || length > 15);
 
 	// Generate the password with a given length
 	cout << "---🔐Password Generated🔐----Copy below--------\n";
